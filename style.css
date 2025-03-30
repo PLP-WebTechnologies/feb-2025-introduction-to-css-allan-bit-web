@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(46, 44, 44);
+}
+.header h1{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;   
+    transition: 0.5s;
+}
+.header h1:hover{
+    background-color: rgba(77, 165, 224, 0.726);
+    box-shadow: 5px 5px 5px 5px rgba(77, 165, 224, 0.726);
+}
+.header p{
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+}
+.container img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 8px;
+    
+}
+.container img:hover{
+    transform: scale(1.1);
+}
+#comment{
+    background-color:aliceblue;
+    color:rgb(20, 17, 17);
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    
+}
+#write{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+label{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
